@@ -1,0 +1,934 @@
+{
+  "sectors": [
+    {
+      "slug": "egov",
+      "name": "e-gouvernement",
+      "subtitle": "Services de l’État",
+      "iconBg": "#C9CEF6",
+      "services": [
+        {
+          "slug": "esenegal",
+          "name": "e-Sénégal",
+          "monogram": "ES",
+          "cardText": "Le Guichet Unique de l’administration : demandes, actes et paiements réunis autour des événements de vie.",
+          "highlighted": true,
+          "status": "ACTIVE",
+          "tagline": "Le Guichet Unique de l’administration : demandes, actes et paiements réunis autour des événements de vie.",
+          "about": "",
+          "redirectUrl": null,
+          "ctaLabel": null,
+          "keyPoints": [],
+          "gradientFrom": "#1B44E4",
+          "gradientTo": "#1B44E4"
+        },
+        {
+          "slug": "egov-e-jokkoo",
+          "name": "e-Jokkoo",
+          "monogram": "EJ",
+          "cardText": "La plateforme nationale d’interopérabilité qui fait dialoguer les systèmes de l’État.",
+          "highlighted": false,
+          "status": "ACTIVE",
+          "tagline": "La plateforme nationale d’interopérabilité qui fait dialoguer les systèmes de l’État.",
+          "about": "Plateforme nationale d’interopérabilité qui permet aux systèmes d’information de l’État d’échanger des données en toute sécurité. Une brique clé de la dématérialisation des services publics.",
+          "redirectUrl": null,
+          "ctaLabel": null,
+          "keyPoints": [],
+          "gradientFrom": "#1B44E4",
+          "gradientTo": "#122F9F"
+        },
+        {
+          "slug": "egov-e-consulat",
+          "name": "e-Consulat",
+          "monogram": "EC",
+          "cardText": "Les démarches consulaires en ligne pour la diaspora sénégalaise.",
+          "highlighted": false,
+          "status": "ACTIVE",
+          "tagline": "Les démarches consulaires en ligne pour la diaspora sénégalaise.",
+          "about": "Service en ligne dédié à la diaspora sénégalaise pour ses démarches consulaires : état civil, documents et rendez-vous, sans se déplacer au consulat.",
+          "redirectUrl": null,
+          "ctaLabel": null,
+          "keyPoints": [],
+          "gradientFrom": "#1B44E4",
+          "gradientTo": "#122F9F"
+        },
+        {
+          "slug": "egov-e-visa",
+          "name": "e-Visa",
+          "monogram": "EV",
+          "cardText": "La demande de visa d’entrée au Sénégal, 100 % en ligne.",
+          "highlighted": false,
+          "status": "ACTIVE",
+          "tagline": "La demande de visa d’entrée au Sénégal, 100 % en ligne.",
+          "about": "Portail de demande de visa d’entrée au Sénégal, entièrement en ligne, pensé pour simplifier l’accès des voyageurs.",
+          "redirectUrl": null,
+          "ctaLabel": null,
+          "keyPoints": [],
+          "gradientFrom": "#1B44E4",
+          "gradientTo": "#122F9F"
+        },
+        {
+          "slug": "egov-e-startup",
+          "name": "e-StartUp",
+          "monogram": "ES",
+          "cardText": "La labellisation des jeunes pousses au titre du Startup Act sénégalais.",
+          "highlighted": false,
+          "status": "ACTIVE",
+          "tagline": "La labellisation des jeunes pousses au titre du Startup Act sénégalais.",
+          "about": "Guichet de labellisation des jeunes pousses au titre du Startup Act sénégalais, pour accéder aux avantages prévus par la loi.",
+          "redirectUrl": null,
+          "ctaLabel": null,
+          "keyPoints": [],
+          "gradientFrom": "#1B44E4",
+          "gradientTo": "#122F9F"
+        },
+        {
+          "slug": "egov-sen-tresor",
+          "name": "Sen Trésor",
+          "monogram": "ST",
+          "cardText": "Les paiements de l’État digitalisés : salaires, pensions, bourses et aides sociales.",
+          "highlighted": false,
+          "status": "ACTIVE",
+          "tagline": "Les paiements de l’État digitalisés : salaires, pensions, bourses et aides sociales.",
+          "about": "Solution de digitalisation des paiements de l’État : salaires, pensions, bourses et aides sociales versés de façon traçable et transparente.",
+          "redirectUrl": null,
+          "ctaLabel": null,
+          "keyPoints": [],
+          "gradientFrom": "#1B44E4",
+          "gradientTo": "#122F9F"
+        },
+        {
+          "slug": "egov-tabax-senegal",
+          "name": "Tabax Sénégal",
+          "monogram": "TS",
+          "cardText": "La mise en relation des porteurs de projets avec PME, investisseurs et financeurs.",
+          "highlighted": false,
+          "status": "ACTIVE",
+          "tagline": "La mise en relation des porteurs de projets avec PME, investisseurs et financeurs.",
+          "about": "Plateforme qui met en relation porteurs de projets, PME et investisseurs pour faciliter le financement et l’accompagnement.",
+          "redirectUrl": null,
+          "ctaLabel": null,
+          "keyPoints": [],
+          "gradientFrom": "#1B44E4",
+          "gradientTo": "#122F9F"
+        },
+        {
+          "slug": "egov-e-ninea",
+          "name": "e-NINEA",
+          "monogram": "EN",
+          "cardText": "L’immatriculation des entreprises et l’obtention du NINEA en ligne.",
+          "highlighted": false,
+          "status": "ACTIVE",
+          "tagline": "L’immatriculation des entreprises et l’obtention du NINEA en ligne.",
+          "about": "Service en ligne d’immatriculation des entreprises et d’obtention du NINEA, avec une procédure 100 % à distance.",
+          "redirectUrl": null,
+          "ctaLabel": null,
+          "keyPoints": [],
+          "gradientFrom": "#1B44E4",
+          "gradientTo": "#122F9F"
+        },
+        {
+          "slug": "egov-sn-hlm",
+          "name": "Sn HLM",
+          "monogram": "SH",
+          "cardText": "La promotion et l’accès facilité au logement social.",
+          "highlighted": false,
+          "status": "ACTIVE",
+          "tagline": "La promotion et l’accès facilité au logement social.",
+          "about": "Acteur public de la promotion et de la réalisation de logements sociaux, pour faciliter l’accès au logement au Sénégal.",
+          "redirectUrl": null,
+          "ctaLabel": null,
+          "keyPoints": [],
+          "gradientFrom": "#1B44E4",
+          "gradientTo": "#122F9F"
+        }
+      ],
+      "lead": "Adossé à l’Agenda Sénégal 2050, le New Deal Technologique vise une administration presque entièrement en ligne, organisée autour des événements de vie plutôt que des guichets.",
+      "heroAlt": "e-gouvernement",
+      "introTitle": "Les services de l’État du Sénégal",
+      "introText": "Le New Deal Technologique porte l’ambition d’un Sénégal souverain sur le plan numérique : dématérialiser l’administration et rapprocher chaque service public du citoyen.",
+      "stats": [
+        {
+          "value": "1 105 Mds",
+          "label": "FCFA investis dans le New Deal Technologique",
+          "variant": "plain",
+          "color": "#1B44E4"
+        }
+      ],
+      "tint": "#E7EBFB",
+      "accent": "#1B44E4"
+    },
+    {
+      "slug": "eedu",
+      "name": "e-éducation",
+      "subtitle": "Savoir & formations",
+      "iconBg": "#DCE7C9",
+      "services": [
+        {
+          "slug": "eedu-yello",
+          "name": "Yello",
+          "monogram": "Y",
+          "cardText": "Comble les lacunes d’apprentissage et renforce les compétences fondamentales.",
+          "highlighted": true,
+          "status": "ACTIVE",
+          "tagline": "Comble les lacunes d’apprentissage et renforce les compétences fondamentales.",
+          "about": "Application edtech sénégalaise qui offre aux lycéens, de la Seconde à la Terminale, des résumés de cours en texte et en audio, pour un apprentissage accessible et personnalisé.",
+          "redirectUrl": null,
+          "ctaLabel": null,
+          "keyPoints": [
+            "Plus de 10 000 téléchargements",
+            "Disponible sur iOS et Android"
+          ],
+          "gradientFrom": "#7E8B1C",
+          "gradientTo": "#586113"
+        },
+        {
+          "slug": "eedu-kajou",
+          "name": "Kajou",
+          "monogram": "K",
+          "cardText": "Le savoir enrichi par l’IA, disponible partout et sans connexion internet.",
+          "highlighted": false,
+          "status": "ACTIVE",
+          "tagline": "Le savoir enrichi par l’IA, disponible partout et sans connexion internet.",
+          "about": "Portée par l’ONG Bibliothèques Sans Frontières, Kajou met des contenus éducatifs de qualité sur des cartes microSD, consultables sur smartphone sans connexion internet.",
+          "redirectUrl": "https://kajou.io",
+          "ctaLabel": "Accéder à Kajou",
+          "keyPoints": [
+            "Plus de 130 000 téléchargements",
+            "100 % hors ligne"
+          ],
+          "gradientFrom": "#7E8B1C",
+          "gradientTo": "#586113"
+        },
+        {
+          "slug": "eedu-xarala",
+          "name": "Xarala",
+          "monogram": "X",
+          "cardText": "Des formations pratiques en Tech et en IA, avec accompagnement personnalisé.",
+          "highlighted": false,
+          "status": "ACTIVE",
+          "tagline": "Des formations pratiques en Tech et en IA, avec accompagnement personnalisé.",
+          "about": "Xarala (« technologie » en wolof) propose des formations certifiantes en tech : développement, cybersécurité, design, marketing, ouvertes à tous sur web et mobile.",
+          "redirectUrl": "https://play.google.com/store/apps/details?id=com.xaralamobile",
+          "ctaLabel": "Accéder à Xarala",
+          "keyPoints": [
+            "Plus de 6 000 apprenants",
+            "Parcours de 12 semaines"
+          ],
+          "gradientFrom": "#7E8B1C",
+          "gradientTo": "#586113"
+        },
+        {
+          "slug": "eedu-volkeno",
+          "name": "Volkeno",
+          "monogram": "V",
+          "cardText": "Un studio qui forme et crée des produits numériques à forte valeur ajoutée.",
+          "highlighted": false,
+          "status": "ACTIVE",
+          "tagline": "Un studio qui forme et crée des produits numériques à forte valeur ajoutée.",
+          "about": "Studio et centre de formation qui conçoit des produits numériques et forme aux métiers de la tech à forte valeur ajoutée.",
+          "redirectUrl": "https://www.volkeno.sn",
+          "ctaLabel": "Accéder à Volkeno",
+          "keyPoints": [],
+          "gradientFrom": "#7E8B1C",
+          "gradientTo": "#586113"
+        },
+        {
+          "slug": "eedu-concree",
+          "name": "Concree",
+          "monogram": "C",
+          "cardText": "L’accompagnement des entrepreneurs, de l’idée au passage à l’échelle.",
+          "highlighted": false,
+          "status": "ACTIVE",
+          "tagline": "L’accompagnement des entrepreneurs, de l’idée au passage à l’échelle.",
+          "about": "Plateforme d’accompagnement des entrepreneurs, de l’idéation jusqu’au passage à l’échelle.",
+          "redirectUrl": "https://concree.com",
+          "ctaLabel": "Accéder à Concree",
+          "keyPoints": [],
+          "gradientFrom": "#7E8B1C",
+          "gradientTo": "#586113"
+        }
+      ],
+      "lead": "Des plateformes locales rapprochent la formation des apprenants : contenus enrichis par l’IA, parcours pratiques en tech, et apprentissage possible même hors connexion.",
+      "heroAlt": "e-éducation",
+      "introTitle": "Toutes les plateformes éducatives",
+      "introText": "« Je ne savais pas » est inconcevable pour quelqu’un qui sait lire. Le savoir et les compétences numériques deviennent accessibles partout.",
+      "stats": [
+        {
+          "value": "100 000",
+          "label": "diplômés du numérique visés d’ici 2034",
+          "variant": "plain",
+          "color": "#7E8B1C"
+        }
+      ],
+      "tint": "#EEF1DC",
+      "accent": "#7E8B1C"
+    },
+    {
+      "slug": "etransport",
+      "name": "e-Transport",
+      "subtitle": "Mobilité",
+      "iconBg": "#F7CFCF",
+      "services": [
+        {
+          "slug": "etransport-dakar-brt",
+          "name": "Dakar BRT",
+          "monogram": "DB",
+          "cardText": "Le bus rapide 100 % électrique : le trajet nord-sud réduit à environ 45 minutes.",
+          "highlighted": true,
+          "status": "ACTIVE",
+          "tagline": "Le bus rapide 100 % électrique : le trajet nord-sud réduit à environ 45 minutes.",
+          "about": "Le SunuBRT est un bus rapide 100 % électrique circulant sur voie dédiée à travers Dakar, ce qui réduit fortement les temps de trajet dans la capitale.",
+          "redirectUrl": "https://www.sunubrt.sn",
+          "ctaLabel": "Accéder à Dakar BRT",
+          "keyPoints": [
+            "Trajet nord-sud en ~45 min",
+            "100 % électrique"
+          ],
+          "gradientFrom": "#C11F2A",
+          "gradientTo": "#87151D"
+        },
+        {
+          "slug": "etransport-dakar-ter",
+          "name": "Dakar TER",
+          "monogram": "DT",
+          "cardText": "Le train express régional : plus de 22 millions de voyageurs en 2024.",
+          "highlighted": false,
+          "status": "ACTIVE",
+          "tagline": "Le train express régional : plus de 22 millions de voyageurs en 2024.",
+          "about": "Le Train express régional relie Dakar à Diamniadio, avec une extension vers l’aéroport AIBD. Il constitue la colonne vertébrale de la mobilité régionale.",
+          "redirectUrl": null,
+          "ctaLabel": null,
+          "keyPoints": [
+            "Plus de 22 millions de voyageurs en 2024"
+          ],
+          "gradientFrom": "#C11F2A",
+          "gradientTo": "#87151D"
+        },
+        {
+          "slug": "etransport-dem-dikk",
+          "name": "Dem Dikk",
+          "monogram": "DD",
+          "cardText": "Le transport public national, en ville comme entre les régions.",
+          "highlighted": false,
+          "status": "ACTIVE",
+          "tagline": "Le transport public national, en ville comme entre les régions.",
+          "about": "Opérateur public de transport, en ville comme entre les régions via Sénégal Dem Dikk. Réservation par l’application ou par téléphone.",
+          "redirectUrl": "https://demdikk.sn",
+          "ctaLabel": "Accéder à Dem Dikk",
+          "keyPoints": [],
+          "gradientFrom": "#C11F2A",
+          "gradientTo": "#87151D"
+        },
+        {
+          "slug": "etransport-yango",
+          "name": "Yango",
+          "monogram": "Y",
+          "cardText": "La réservation de courses, simple et confortable, depuis l’application.",
+          "highlighted": false,
+          "status": "ACTIVE",
+          "tagline": "La réservation de courses, simple et confortable, depuis l’application.",
+          "about": "Application de réservation de courses pour se déplacer simplement et à prix maîtrisé au Sénégal.",
+          "redirectUrl": "https://yango.com",
+          "ctaLabel": "Accéder à Yango",
+          "keyPoints": [],
+          "gradientFrom": "#C11F2A",
+          "gradientTo": "#87151D"
+        },
+        {
+          "slug": "etransport-kai-nu-dem",
+          "name": "KAI ñu dem",
+          "monogram": "KÑ",
+          "cardText": "Le VTC local pour se déplacer sereinement partout au Sénégal.",
+          "highlighted": false,
+          "status": "ACTIVE",
+          "tagline": "Le VTC local pour se déplacer sereinement partout au Sénégal.",
+          "about": "Service local de VTC pour se faire conduire sereinement partout au Sénégal.",
+          "redirectUrl": null,
+          "ctaLabel": null,
+          "keyPoints": [],
+          "gradientFrom": "#C11F2A",
+          "gradientTo": "#87151D"
+        }
+      ],
+      "lead": "Une nouvelle génération d’infrastructures fluidifie la région de Dakar et relie mieux les villes du pays, avec des transports plus rapides, plus sobres et plus confortables.",
+      "heroAlt": "e-Transport",
+      "introTitle": "Le secteur des transports bouge",
+      "introText": "La mobilité de Dakar bascule vers le propre et le rapide : TER, BRT électrique et bus nationaux redessinent les trajets du quotidien.",
+      "stats": [
+        {
+          "value": "22 M+",
+          "label": "voyageurs transportés par le TER en 2024",
+          "variant": "plain",
+          "color": "#C11F2A"
+        }
+      ],
+      "tint": "#FADEDF",
+      "accent": "#C11F2A"
+    },
+    {
+      "slug": "esante",
+      "name": "e-Santé",
+      "subtitle": "Santé digitale",
+      "iconBg": "#CFE9DE",
+      "services": [
+        {
+          "slug": "esante-kera-health",
+          "name": "Kera Health",
+          "monogram": "KH",
+          "cardText": "Une plateforme pilotée par l’IA, soutenue par l’IFC, qui relie soignants et patients.",
+          "highlighted": true,
+          "status": "ACTIVE",
+          "tagline": "Une plateforme pilotée par l’IA, soutenue par l’IFC, qui relie soignants et patients.",
+          "about": "Plateforme de santé pilotée par l’IA qui connecte prestataires et patients, avec un focus sur les populations vulnérables. Soutenue par l’IFC.",
+          "redirectUrl": "https://kera.health",
+          "ctaLabel": "Accéder à Kera Health",
+          "keyPoints": [
+            "10 M$ levés en 2025",
+            "Fondée en 2022 à Dakar"
+          ],
+          "gradientFrom": "#2E8C68",
+          "gradientTo": "#206248"
+        },
+        {
+          "slug": "esante-eyone",
+          "name": "Eyone",
+          "monogram": "E",
+          "cardText": "L’interopérabilité et la téléconsultation au service du parcours de soins.",
+          "highlighted": false,
+          "status": "ACTIVE",
+          "tagline": "L’interopérabilité et la téléconsultation au service du parcours de soins.",
+          "about": "Éditeur sénégalais d’un dossier médical et d’une plateforme d’interopérabilité qui digitalise le parcours de soins (Sénégal, Mali, Niger, France).",
+          "redirectUrl": "https://eyone.net",
+          "ctaLabel": "Accéder à Eyone",
+          "keyPoints": [
+            "3 M$ levés"
+          ],
+          "gradientFrom": "#2E8C68",
+          "gradientTo": "#206248"
+        },
+        {
+          "slug": "esante-wergu",
+          "name": "Wergu",
+          "monogram": "W",
+          "cardText": "Trouver les pharmacies ouvertes et vérifier prix et disponibilité des médicaments.",
+          "highlighted": false,
+          "status": "ACTIVE",
+          "tagline": "Trouver les pharmacies ouvertes et vérifier prix et disponibilité des médicaments.",
+          "about": "Application qui géolocalise les pharmacies ouvertes, vérifie prix et disponibilité des médicaments, avec rappels de prise et assistant IA.",
+          "redirectUrl": "https://play.google.com/store/apps/details?id=com.wergu",
+          "ctaLabel": "Accéder à Wergu",
+          "keyPoints": [],
+          "gradientFrom": "#2E8C68",
+          "gradientTo": "#206248"
+        },
+        {
+          "slug": "esante-samante",
+          "name": "Samanté",
+          "monogram": "S",
+          "cardText": "Un compagnon digital pour gérer sa santé au quotidien.",
+          "highlighted": false,
+          "status": "ACTIVE",
+          "tagline": "Un compagnon digital pour gérer sa santé au quotidien.",
+          "about": "Plateforme qui simplifie la gestion des soins et l’accès à des informations de santé fiables.",
+          "redirectUrl": null,
+          "ctaLabel": null,
+          "keyPoints": [],
+          "gradientFrom": "#2E8C68",
+          "gradientTo": "#206248"
+        },
+        {
+          "slug": "esante-weer-wi",
+          "name": "Weer wi",
+          "monogram": "WW",
+          "cardText": "Découvrir et suivre son cycle menstruel, en toute simplicité.",
+          "highlighted": false,
+          "status": "ACTIVE",
+          "tagline": "Découvrir et suivre son cycle menstruel, en toute simplicité.",
+          "about": "Application qui informe filles et femmes sur les règles et le suivi du cycle menstruel, avec des contenus fiables et adaptés.",
+          "redirectUrl": null,
+          "ctaLabel": null,
+          "keyPoints": [],
+          "gradientFrom": "#2E8C68",
+          "gradientTo": "#206248"
+        }
+      ],
+      "lead": "Un écosystème healthtech émerge à Dakar : mise en relation soignants-patients, dossiers médicaux numériques et suivi personnalisé pour combler le déficit de couverture.",
+      "heroAlt": "e-Santé",
+      "introTitle": "La santé se digitalise au Sénégal",
+      "introText": "La santé se connecte : IA, interopérabilité et téléconsultation élargissent l’accès aux soins, en priorité pour les populations les plus éloignées du système.",
+      "stats": [
+        {
+          "value": "10 M$",
+          "label": "levés par Kera Health auprès de l’IFC en 2025",
+          "variant": "plain",
+          "color": "#2E8C68"
+        }
+      ],
+      "tint": "#DFF0E9",
+      "accent": "#2E8C68"
+    },
+    {
+      "slug": "ecommerce",
+      "name": "e-Commerce",
+      "subtitle": "Achats en ligne",
+      "iconBg": "#E6D3F7",
+      "services": [
+        {
+          "slug": "ecommerce-jumia",
+          "name": "Jumia",
+          "monogram": "J",
+          "cardText": "La marketplace de référence : électronique, maison, mode, paiement à la livraison.",
+          "highlighted": true,
+          "status": "ACTIVE",
+          "tagline": "La marketplace de référence : électronique, maison, mode, paiement à la livraison.",
+          "about": "Marketplace de référence au Sénégal : électronique, maison, mode et beauté, avec paiement à la livraison et livraison sur tout le pays.",
+          "redirectUrl": "https://www.jumia.sn",
+          "ctaLabel": "Accéder à Jumia",
+          "keyPoints": [],
+          "gradientFrom": "#7A1FE0",
+          "gradientTo": "#55159C"
+        },
+        {
+          "slug": "ecommerce-oumou-group",
+          "name": "Oumou Group",
+          "monogram": "OG",
+          "cardText": "Un accélérateur de croissance pour les marchands et marques locales.",
+          "highlighted": false,
+          "status": "ACTIVE",
+          "tagline": "Un accélérateur de croissance pour les marchands et marques locales.",
+          "about": "Acteur qui accompagne la croissance technologique des marchands et des marques locales.",
+          "redirectUrl": null,
+          "ctaLabel": null,
+          "keyPoints": [],
+          "gradientFrom": "#7A1FE0",
+          "gradientTo": "#55159C"
+        }
+      ],
+      "lead": "Porté par une bancarisation encore faible mais un mobile money massif, l’achat en ligne se démocratise, du grand marché national jusqu’aux marques locales.",
+      "heroAlt": "e-Commerce",
+      "introTitle": "L’e-commerce sénégalais accélère",
+      "introText": "Le commerce en ligne sort de Dakar : marketplaces et paiement mobile ouvrent de nouveaux débouchés aux marchands de tout le pays.",
+      "stats": [
+        {
+          "value": "Nº 1",
+          "label": "Jumia, marketplace de référence au Sénégal",
+          "variant": "plain",
+          "color": "#7A1FE0"
+        }
+      ],
+      "tint": "#EDDDFB",
+      "accent": "#7A1FE0"
+    },
+    {
+      "slug": "eagri",
+      "name": "e-Agriculture",
+      "subtitle": "Agri & entreprise",
+      "iconBg": "#E1E1E1",
+      "services": [
+        {
+          "slug": "eagri-agrobabe",
+          "name": "Agrobabe",
+          "monogram": "A",
+          "cardText": "Rendre l’agriculture accessible, simple et attractive pour la nouvelle génération.",
+          "highlighted": true,
+          "status": "ACTIVE",
+          "tagline": "Rendre l’agriculture accessible, simple et attractive pour la nouvelle génération.",
+          "about": "Initiative qui rend l’agriculture accessible, simple et attractive, en particulier pour la nouvelle génération.",
+          "redirectUrl": null,
+          "ctaLabel": null,
+          "keyPoints": [],
+          "gradientFrom": "#3B3B3D",
+          "gradientTo": "#29292A"
+        },
+        {
+          "slug": "eagri-fraisen",
+          "name": "Fraisen",
+          "monogram": "F",
+          "cardText": "Unifier et accompagner les producteurs de fraises en Afrique.",
+          "highlighted": false,
+          "status": "ACTIVE",
+          "tagline": "Unifier et accompagner les producteurs de fraises en Afrique.",
+          "about": "Réseau qui unifie et accompagne les producteurs de fraises en Afrique.",
+          "redirectUrl": null,
+          "ctaLabel": null,
+          "keyPoints": [],
+          "gradientFrom": "#3B3B3D",
+          "gradientTo": "#29292A"
+        },
+        {
+          "slug": "eagri-sotilma-farm",
+          "name": "Sotilma Farm",
+          "monogram": "SF",
+          "cardText": "Piloter son irrigation à distance, depuis son téléphone.",
+          "highlighted": false,
+          "status": "ACTIVE",
+          "tagline": "Piloter son irrigation à distance, depuis son téléphone.",
+          "about": "Solution qui permet de piloter l’irrigation à distance, directement depuis un téléphone.",
+          "redirectUrl": null,
+          "ctaLabel": null,
+          "keyPoints": [],
+          "gradientFrom": "#3B3B3D",
+          "gradientTo": "#29292A"
+        },
+        {
+          "slug": "eagri-sooreetul",
+          "name": "Sooreetul",
+          "monogram": "S",
+          "cardText": "Le marché en ligne qui donne de la visibilité aux produits transformés par les femmes.",
+          "highlighted": false,
+          "status": "ACTIVE",
+          "tagline": "Le marché en ligne qui donne de la visibilité aux produits transformés par les femmes.",
+          "about": "Marché en ligne qui valorise et commercialise les produits transformés, notamment par les femmes.",
+          "redirectUrl": "https://www.sooretul.com",
+          "ctaLabel": "Accéder à Sooreetul",
+          "keyPoints": [],
+          "gradientFrom": "#3B3B3D",
+          "gradientTo": "#29292A"
+        },
+        {
+          "slug": "eagri-smart-agro",
+          "name": "Smart Agro",
+          "monogram": "SA",
+          "cardText": "L’agriculture de précision, accessible en un clic.",
+          "highlighted": false,
+          "status": "ACTIVE",
+          "tagline": "L’agriculture de précision, accessible en un clic.",
+          "about": "Solution d’agriculture de précision, accessible en un clic.",
+          "redirectUrl": null,
+          "ctaLabel": null,
+          "keyPoints": [],
+          "gradientFrom": "#3B3B3D",
+          "gradientTo": "#29292A"
+        }
+      ],
+      "lead": "Entreprendre dans l’agriculture commence ici : inspiration, matériel, formations et débouchés, pour une filière plus productive et mieux valorisée.",
+      "heroAlt": "e-Agriculture",
+      "introTitle": "L’e-agriculture, on vous donne les clés",
+      "introText": "L’agriculture, premier employeur du pays, se digitalise : irrigation intelligente, marchés en ligne et données au service des petits producteurs.",
+      "stats": [
+        {
+          "value": "60 %",
+          "label": "de la main-d’œuvre nationale travaille dans l’agriculture",
+          "variant": "plain",
+          "color": "#3B3B3D"
+        }
+      ],
+      "tint": "#E6E6E7",
+      "accent": "#3B3B3D"
+    },
+    {
+      "slug": "efinances",
+      "name": "e-Finances",
+      "subtitle": "Paiements & finance",
+      "iconBg": "#F8DEC2",
+      "services": [
+        {
+          "slug": "efinances-wave",
+          "name": "Wave",
+          "monogram": "W",
+          "cardText": "La 1re licorne fintech d’Afrique francophone : transferts entre comptes gratuits, retraits à faible coût.",
+          "highlighted": true,
+          "status": "ACTIVE",
+          "tagline": "La 1re licorne fintech d’Afrique francophone : transferts entre comptes gratuits, retraits à faible coût.",
+          "about": "Wave a démocratisé le mobile money avec des transferts entre comptes gratuits et des retraits à faible coût. C’est la première licorne fintech d’Afrique francophone.",
+          "redirectUrl": "https://www.wave.com",
+          "ctaLabel": "Accéder à Wave",
+          "keyPoints": [
+            "≈ 11 millions de clients",
+            "Transferts entre comptes gratuits"
+          ],
+          "gradientFrom": "#B4842A",
+          "gradientTo": "#7D5C1D"
+        },
+        {
+          "slug": "efinances-orange-money",
+          "name": "Orange Money",
+          "monogram": "OM",
+          "cardText": "Le paiement mobile adossé au réseau Orange, largement accepté chez les commerçants.",
+          "highlighted": false,
+          "status": "ACTIVE",
+          "tagline": "Le paiement mobile adossé au réseau Orange, largement accepté chez les commerçants.",
+          "about": "Service de paiement mobile adossé au réseau Orange, largement accepté chez les commerçants et pour le règlement des factures.",
+          "redirectUrl": "https://www.orange.sn",
+          "ctaLabel": "Accéder à Orange Money",
+          "keyPoints": [],
+          "gradientFrom": "#B4842A",
+          "gradientTo": "#7D5C1D"
+        },
+        {
+          "slug": "efinances-mixx-by-yas",
+          "name": "Mixx by Yas",
+          "monogram": "MB",
+          "cardText": "Les services financiers mobiles de Yas (ex-Free) pour le quotidien.",
+          "highlighted": false,
+          "status": "ACTIVE",
+          "tagline": "Les services financiers mobiles de Yas (ex-Free) pour le quotidien.",
+          "about": "Offre de services financiers mobiles de Yas (ex-Free) pour les paiements et transferts du quotidien.",
+          "redirectUrl": null,
+          "ctaLabel": null,
+          "keyPoints": [],
+          "gradientFrom": "#B4842A",
+          "gradientTo": "#7D5C1D"
+        },
+        {
+          "slug": "efinances-kpay",
+          "name": "Kpay",
+          "monogram": "K",
+          "cardText": "Une fintech tournée vers l’inclusion financière au Sénégal.",
+          "highlighted": false,
+          "status": "ACTIVE",
+          "tagline": "Une fintech tournée vers l’inclusion financière au Sénégal.",
+          "about": "Fintech tournée vers l’inclusion financière au Sénégal.",
+          "redirectUrl": null,
+          "ctaLabel": null,
+          "keyPoints": [],
+          "gradientFrom": "#B4842A",
+          "gradientTo": "#7D5C1D"
+        },
+        {
+          "slug": "efinances-intouch",
+          "name": "Intouch",
+          "monogram": "I",
+          "cardText": "L’agrégateur de paiements qui connecte marchands et services digitaux en Afrique.",
+          "highlighted": false,
+          "status": "ACTIVE",
+          "tagline": "L’agrégateur de paiements qui connecte marchands et services digitaux en Afrique.",
+          "about": "Agrégateur panafricain qui réunit marchands, services et moyens de paiement dans une seule interface.",
+          "redirectUrl": "https://www.intouchgroup.net",
+          "ctaLabel": "Accéder à Intouch",
+          "keyPoints": [],
+          "gradientFrom": "#B4842A",
+          "gradientTo": "#7D5C1D"
+        }
+      ],
+      "lead": "Parce que l’e-finance sénégalaise peut devenir un modèle africain : des acteurs locaux bâtissent l’inclusion financière à grande échelle, bien au-delà du seul marché.",
+      "heroAlt": "e-Finances",
+      "introTitle": "Un secteur dynamique et mature",
+      "introText": "Le mobile money a réinventé l’argent au Sénégal : payer, envoyer et recevoir depuis un simple téléphone est devenu la norme.",
+      "stats": [
+        {
+          "value": "15 300 Mds",
+          "label": "FCFA de transactions mobile money en 2025",
+          "variant": "plain",
+          "color": "#B4842A"
+        }
+      ],
+      "tint": "#F6E7CE",
+      "accent": "#B4842A"
+    }
+  ],
+  "pages": {
+    "faits": {
+      "eyebrow": "Faits marquants",
+      "title": "Le numérique sénégalais en mouvement",
+      "intro": "Quelques jalons publics de la transformation numérique du pays. Repères à valider et compléter avant toute publication officielle.",
+      "slug": "faits",
+      "data": {
+        "timeline": [
+          {
+            "date": "Fév. 2025",
+            "title": "Lancement du New Deal Technologique",
+            "body": "La stratégie numérique Horizon 2034 est officialisée, avec un budget d’environ 1 105 milliards FCFA et quatre piliers, dont la souveraineté numérique."
+          },
+          {
+            "date": "2024",
+            "title": "Plus de 22 millions de voyageurs pour le TER",
+            "body": "Le train express régional confirme sa montée en charge sur l’axe Dakar–Diamniadio."
+          },
+          {
+            "date": "2024",
+            "title": "Un BRT 100 % électrique à Dakar",
+            "body": "Le bus rapide entre en service et raccourcit fortement les temps de trajet dans la capitale."
+          },
+          {
+            "date": "Juin 2025",
+            "title": "Kera Health lève 10 M$ auprès de l’IFC",
+            "body": "Un signal fort pour la healthtech sénégalaise et l’accès aux soins par le numérique."
+          },
+          {
+            "date": "2025",
+            "title": "Plus de 15 000 milliards FCFA en mobile money",
+            "body": "Les paiements mobiles s’imposent comme la colonne vertébrale financière du pays."
+          }
+        ]
+      }
+    },
+    "vision": {
+      "eyebrow": "SAIO vision",
+      "title": "Un État numérique, au service de chaque citoyen",
+      "intro": "SAIO est la porte d’entrée unique vers les services numériques du Sénégal : rassembler, orienter, simplifier, autour des événements de vie plutôt que des administrations. La plateforme prolonge, côté usager, l’ambition du New Deal Technologique Horizon 2034.",
+      "slug": "vision",
+      "data": {
+        "pillars": [
+          {
+            "n": "01",
+            "title": "Souveraineté numérique",
+            "body": "Héberger localement les données sensibles et renforcer la cybersécurité nationale."
+          },
+          {
+            "n": "02",
+            "title": "Services publics dématérialisés",
+            "body": "Rendre les démarches accessibles en ligne via des portails simples et interopérables."
+          },
+          {
+            "n": "03",
+            "title": "Économie numérique",
+            "body": "Soutenir startups et innovation, et diffuser le digital dans les secteurs clés."
+          },
+          {
+            "n": "04",
+            "title": "Leadership continental",
+            "body": "Viser le top 3 africain des exportateurs de services numériques."
+          }
+        ],
+        "note": "Repères issus de sources publiques sur le New Deal Technologique, à valider avant publication officielle."
+      }
+    },
+    "briques": {
+      "eyebrow": "SAIO building blocks",
+      "title": "Les briques de la plateforme",
+      "intro": "Sept univers de services numériques, chacun regroupant les acteurs publics et privés de son secteur. Choisissez une brique pour explorer ses services.",
+      "slug": "briques",
+      "data": {}
+    },
+    "contact": {
+      "eyebrow": "Contacts",
+      "title": "Intégrer la plateforme SAIO",
+      "intro": "Vous portez un service numérique d’intérêt public ? Écrivez-nous pour rejoindre l’une des briques de SAIO.",
+      "slug": "contact",
+      "data": {
+        "fields": [
+          {
+            "label": "Nom de la structure",
+            "type": "input",
+            "placeholder": "Votre organisation"
+          },
+          {
+            "label": "Personne à contacter",
+            "type": "input",
+            "placeholder": "Prénom et nom"
+          },
+          {
+            "label": "E-mail",
+            "type": "input",
+            "placeholder": "nom@structure.sn"
+          },
+          {
+            "label": "Brique concernée",
+            "type": "input",
+            "placeholder": "e-Gouvernement, e-Santé…"
+          },
+          {
+            "label": "Votre message",
+            "type": "textarea",
+            "placeholder": "Décrivez votre service…"
+          }
+        ],
+        "info": [
+          {
+            "title": "Porteur du projet",
+            "body": "Ministère des Télécommunications et du Numérique, Cellule de Communication."
+          },
+          {
+            "title": "Adresse",
+            "body": "À compléter."
+          },
+          {
+            "title": "E-mail / Téléphone",
+            "body": "À compléter."
+          }
+        ]
+      }
+    },
+    "home": {
+      "slug": "home",
+      "hero": {
+        "badge": "Propulsé par l’État du Sénégal",
+        "title": "Le Sénégal digitalisé en un seul endroit",
+        "text": "Des redirections simples pour un usage rapide et efficace.",
+        "imageAlt": "Le Sénégal digitalisé"
+      },
+      "invest": {
+        "eyebrow": "Investir au Sénégal",
+        "title": "Le hub numérique de l’Afrique de l’Ouest",
+        "sub": "Une connectivité de premier plan, des infrastructures souveraines, une stratégie d’État claire et un écosystème de startups parmi les plus dynamiques du continent : le Sénégal réunit les conditions pour bâtir, héberger et lancer vos services numériques.",
+        "kpis": [
+          {
+            "value": "96,5 %",
+            "label": "de taux de pénétration internet (ARTP, 2024)"
+          },
+          {
+            "value": "97 %",
+            "label": "de couverture 4G, et 39 % en 5G (GSMA, 2025)"
+          },
+          {
+            "value": "76 %",
+            "label": "des adultes disposent d’un compte mobile money"
+          },
+          {
+            "value": "15 %",
+            "label": "du PIB visé par le numérique à l’horizon 2034"
+          }
+        ],
+        "atouts": [
+          {
+            "title": "Connectivité & infrastructures",
+            "body": "Près de 6 000 km de fibre optique nationale, une 4G quasi généralisée et la 5G en déploiement, plusieurs câbles sous-marins internationaux, et un Data Center national de classe Tier 3 à Diamniadio adossé à un cloud souverain, SENCLOUD."
+          },
+          {
+            "title": "Une stratégie d’État lisible",
+            "body": "La Vision Sénégal 2050 et le New Deal Technologique Horizon 2034 mobilisent environ 1,7 milliard de dollars pour dématérialiser 95 % des démarches et faire du numérique un pilier de l’économie."
+          },
+          {
+            "title": "Un écosystème startup en tête",
+            "body": "Premier pays d’Afrique subsaharienne francophone pour les levées de fonds, avec plus de 300 millions de dollars mobilisés, la licorne Wave, et un Startup Act complété par le dispositif Écosystème Startup."
+          },
+          {
+            "title": "Talents, marché & position",
+            "body": "Une population jeune et 100 000 diplômés du numérique visés, une porte d’entrée vers le marché de l’UEMOA, un grand port atlantique et un fuseau GMT idéal pour travailler avec l’Europe et les Amériques."
+          }
+        ],
+        "gsma": {
+          "tag": "Rapport GSMA · Senegal Digital Economy, décembre 2025",
+          "body": "Selon la GSMA, des réformes ciblées pourraient connecter 2,6 millions de personnes supplémentaires d’ici 2030, générer 1 100 milliards de FCFA de valeur et créer 280 000 emplois. En 2024, le mobile money a déjà porté près de 2,9 milliards de transactions, pour 48 488 milliards de FCFA.",
+          "mini": [
+            {
+              "value": "+2,6 M",
+              "label": "connectés d’ici 2030"
+            },
+            {
+              "value": "+1 100 Mds",
+              "label": "FCFA de valeur"
+            },
+            {
+              "value": "+280 000",
+              "label": "emplois"
+            }
+          ]
+        }
+      }
+    },
+    "esenegal": {
+      "slug": "esenegal",
+      "backLabel": "‹ e-Gouvernement",
+      "title": "Le projet Guichet Unique met en place une interface numérique unique",
+      "logo": "e-senegal",
+      "ctaTitle": "Commencez votre démarche",
+      "ctaText": "e-Sénégal ambitionne de simplifier les démarches administratives, réduire les délais et les coûts, améliorer l’expérience usager et renforcer la transparence de l’action publique, en s’appuyant sur les technologies numériques, l’interopérabilité des systèmes d’information et une approche centrée sur les événements de vie.",
+      "ctaPill": "En savoir plus",
+      "lead": "e-Sénégal simplifie les démarches administratives, réduit les délais et les coûts, améliore l’expérience usager et renforce la transparence de l’action publique, en s’appuyant sur les technologies numériques et une approche centrée sur les événements de vie.",
+      "stats": [
+        {
+          "value": "24/24",
+          "label": "Faciliter l’accès aux services publics grâce à une plateforme unique",
+          "variant": "plain"
+        },
+        {
+          "value": "6",
+          "label": "procédures prioritaires",
+          "variant": "blue"
+        }
+      ]
+    }
+  }
+}

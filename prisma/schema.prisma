@@ -1,0 +1,184 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  ADMIN
+  EDITOR
+}
+
+enum ServiceStatus {
+  ACTIVE
+  SOON
+}
+
+model User {
+  id           String    @id @default(cuid())
+  email        String    @unique
+  name         String
+  passwordHash String
+  role         Role      @default(EDITOR)
+  active       Boolean   @default(true)
+  lastLoginAt  DateTime?
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+
+  media        Media[]
+  auditLogs    AuditLog[]
+  services     Service[]
+}
+
+model Sector {
+  id           String   @id @default(cuid())
+  slug         String   @unique
+  name         String
+  subtitle     String
+  lead         String
+  introTitle   String   @default("")
+  introText    String   @default("")
+  heroAlt      String   @default("")
+  heroImageId  String?
+  heroImage    Media?   @relation("SectorHero", fields: [heroImageId], references: [id])
+  iconKey      String   @default("gov")
+  iconBg       String   @default("#C9CEF6")
+  accent       String   @default("#1B44E4")
+  tint         String   @default("#E7EBFB")
+  stats        Json     @default("[]")
+  position     Int      @default(0)
+  published    Boolean  @default(true)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  services     Service[]
+
+  @@index([position])
+}
+
+model Service {
+  id           String        @id @default(cuid())
+  sectorId     String
+  sector       Sector        @relation(fields: [sectorId], references: [id], onDelete: Cascade)
+  slug         String        @unique
+  name         String
+  monogram     String        @default("")
+  cardText     String        @default("")
+  tagline      String        @default("")
+  about        String        @default("")
+  gradientFrom String        @default("#1B44E4")
+  gradientTo   String        @default("#122F9F")
+  redirectUrl  String?
+  ctaLabel     String?
+  status       ServiceStatus @default(ACTIVE)
+  highlighted  Boolean       @default(false)
+  keyPoints    Json          @default("[]")
+  logoImageId  String?
+  logoImage    Media?        @relation("ServiceLogo", fields: [logoImageId], references: [id])
+  linkPage     String?       // internal page slug to link to instead of external redirect (e.g. "esenegal")
+  position     Int           @default(0)
+  published    Boolean       @default(true)
+  clicks       Int           @default(0)
+  createdById  String?
+  createdBy    User?         @relation(fields: [createdById], references: [id])
+  createdAt    DateTime      @default(now())
+  updatedAt    DateTime      @updatedAt
+
+  @@index([sectorId, position])
+}
+
+model Page {
+  id        String   @id @default(cuid())
+  slug      String   @unique
+  title     String
+  eyebrow   String   @default("")
+  intro     String   @default("")
+  data      Json     @default("{}")
+  published Boolean  @default(true)
+  updatedAt DateTime @updatedAt
+}
+
+model Ad {
+  id          String    @id @default(cuid())
+  title       String
+  imageId     String?
+  image       Media?    @relation(fields: [imageId], references: [id])
+  imageUrl    String    @default("")
+  linkUrl     String
+  placement   String    @default("home-mid")
+  active      Boolean   @default(true)
+  startsAt    DateTime?
+  endsAt      DateTime?
+  position    Int       @default(0)
+  impressions Int       @default(0)
+  clicks      Int       @default(0)
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  @@index([placement, active])
+}
+
+model Media {
+  id           String   @id @default(cuid())
+  filename     String
+  url          String
+  mimeType     String
+  size         Int
+  width        Int?
+  height       Int?
+  alt          String   @default("")
+  kind         String   @default("image")
+  uploadedById String?
+  uploadedBy   User?    @relation(fields: [uploadedById], references: [id])
+  createdAt    DateTime @default(now())
+
+  sectorHeros  Sector[]  @relation("SectorHero")
+  serviceLogos Service[] @relation("ServiceLogo")
+  ads          Ad[]
+}
+
+model Redirect {
+  id        String   @id @default(cuid())
+  source    String   @unique
+  target    String
+  permanent Boolean  @default(true)
+  active    Boolean  @default(true)
+  hits      Int      @default(0)
+  note      String   @default("")
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Setting {
+  key       String   @id
+  value     Json
+  updatedAt DateTime @updatedAt
+}
+
+model ContactSubmission {
+  id        String   @id @default(cuid())
+  structure String
+  contact   String
+  email     String
+  brique    String   @default("")
+  message   String
+  status    String   @default("new")
+  createdAt DateTime @default(now())
+}
+
+model AuditLog {
+  id        String   @id @default(cuid())
+  userId    String?
+  user      User?    @relation(fields: [userId], references: [id])
+  actorName String   @default("")
+  action    String
+  entity    String
+  entityId  String?
+  summary   String   @default("")
+  createdAt DateTime @default(now())
+
+  @@index([createdAt])
+}
